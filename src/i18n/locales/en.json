@@ -1,0 +1,135 @@
+{
+  "locales": {
+    "en": "English",
+    "uk": "Ukrainian",
+    "ru": "Russian"
+  },
+  "cv": "CV",
+  "full_name": "Vladyslav Adonin",
+  "position": "Middle PHP Developer",
+  "about_me": {
+    "title": "About Me",
+    "description": [
+      "I have nearly 5 years of PHP development experience, primarily working with PHP 7.4+, Yii2, and Laravel. I contributed to maintaining and enhancing CRM systems, fintech projects, and client websites, also developing CMS plugins. My responsibilities include bug fixing, feature development, troubleshooting, and code reviews.",
+      "Currently, as a Middle PHP Developer, I focus on improving system stability, collaborating with the team on complex issues, and maintaining high code quality. I use technologies such as PHP, Yii2, Laravel, MySQL, and Git regularly.",
+      "I aim to further develop my expertise in PHP frameworks, deepen my skills in backend architecture and performance optimization."
+    ],
+    "years": "years"
+  },
+  "location": "Ukraine",
+  "work_experience": {
+    "title": "Work Experience",
+    "companies": [
+      {
+        "position": "Middle PHP Developer",
+        "from": "September 2022",
+        "to": "Present",
+        "name": "\"WOW\" Corp.",
+        "location": "Dnipro",
+        "description": [
+          "Maintained and enhanced an internal CRM system (Yii2) for company users, including bug fixes, and implementation of new features.",
+          "Supported a fintech project (Yii2) by troubleshooting issues and developing new functionality.",
+          "Developed a questionnaire website using Laravel.",
+          "Collaborated with the team to resolve complex technical issues and improve system stability.",
+          "Conducted code reviews to maintain code quality and ensure adherence to best practices."
+        ]
+      },
+      {
+        "position": "Junior PHP Developer",
+        "from": "December 2021",
+        "to": "June 2022",
+        "name": "ForForce",
+        "location": "Dnipro",
+        "description": [
+          "Maintained and improved clients’ websites by fixing issues and adding new features."
+        ]
+      },
+      {
+        "position": "Junior PHP Developer",
+        "from": "August 2020",
+        "to": "October 2021",
+        "name": "Pinta Webware",
+        "location": "Dnipro",
+        "description": [
+          "Developed plugins for CMS platforms (OpenCart, CS-Cart, PrestaShop, etc.).",
+          "Provided maintenance and updates for existing plugins and websites."
+        ]
+      },
+      {
+        "position": "Junior Python Developer",
+        "from": "April 2019",
+        "to": "February 2020",
+        "name": "LLC \"iCity\"",
+        "location": "Dnipro",
+        "description": [
+          "Supported a vehicle automation and analytics system for municipal transport."
+        ]
+      },
+      {
+        "position": "Junior Android/Python Developer",
+        "from": "June 2017",
+        "to": "March 2018",
+        "name": "LLC \"Dispatcher City\"",
+        "location": "Kamianske",
+        "description": [
+          "Developed an Android application in Java and Telegram bots in Python."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "name": "Master",
+        "university": "Dniprovsky State Technical University",
+        "faculty": "Electronics and Computer Engineering",
+        "department": "Software Engineering",
+        "from": "2018",
+        "to": "2019",
+        "location": "Kamianske, Dnipropetrovska Oblast"
+      },
+      {
+        "name": "Bachelor",
+        "university": "Dniprovsky State Technical University",
+        "faculty": "Electronics and Computer Engineering",
+        "department": "Software Engineering",
+        "from": "2014",
+        "to": "2018",
+        "location": "Kamianske, Dnipropetrovska Oblast"
+      }
+    ]
+  },
+  "tech_skill": {
+    "title": "Tech Skills",
+    "list": {
+      "Code review": "Code review"
+    }
+  },
+  "soft_skill": {
+    "title": "Soft Skills",
+    "list": [
+      "Team player",
+      "Communicative",
+      "Conflict-free",
+      "Honest",
+      "Open-minded",
+      "Responsible"
+    ]
+  },
+  "language": {
+    "title": "Languages"
+  },
+  "additional": {
+    "title": "Additional Information",
+    "info": [
+      "Participated in the Ukrainian Collegiate Programming Contest 2016.",
+      "Has finished the mixed course \"Foundations of Programming (based on Harvard CS50 course)\". Certificate S/N: TN-0196."
+    ]
+  },
+  "basic": "Basic",
+  "intermediate": "Intermediate",
+  "advanced": "Advanced",
+  "fluent": "Fluent",
+  "native": "Native"
+}
