@@ -1,5 +1,5 @@
 <template>
-  <header class="site-header flex flex-col lg:flex-row items-center lg:items-baseline justify-between gap-8 m-8">
+  <header class="site-header flex flex-col lg:flex-row items-center lg:items-baseline justify-between sticky top-0 z-20 bg-base-100 gap-8 p-8 pb-4">
     <div class="site-header__name font-semibold text-2xl xs:text-3xl mb-4 order-2 lg:order-1">{{ title }}</div>
 
     <ThemeLanguageSwitcher class="justify-center sm:justify-end order-1 lg:order-2"/>
