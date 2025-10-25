@@ -37,6 +37,13 @@ export const mainSkills: MainSkill[] = [
         "class_color": "progress-warning"
     },
     {
+        "name": "TypeScript",
+        "value": "intermediate",
+        "percent": "50",
+        "max": "100",
+        "class_color": "progress-info"
+    },
+    {
         "name": "Vue 3",
         "value": "intermediate",
         "percent": "60",

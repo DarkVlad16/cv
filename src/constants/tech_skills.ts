@@ -12,12 +12,7 @@ export const techSkills: Skill[] = [
         "class_color": "badge-info"
     },
     {
-        "name": "MySQL",
-        "value": "advanced",
-        "class_color": "badge-success"
-    },
-    {
-        "name": "MariaDB",
+        "name": "DBMS",
         "value": "advanced",
         "class_color": "badge-success"
     },

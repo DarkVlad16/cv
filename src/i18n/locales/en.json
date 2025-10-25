@@ -103,7 +103,8 @@
   "tech_skill": {
     "title": "Tech Skills",
     "list": {
-      "Code review": "Code review"
+      "Code review": "Code review",
+      "DBMS": "DBMS"
     }
   },
   "soft_skill": {
@@ -112,7 +113,6 @@
       "Team player",
       "Communicative",
       "Conflict-free",
-      "Honest",
       "Open-minded",
       "Responsible"
     ]
