@@ -23,7 +23,10 @@
           v-for="(techSkill, idx) in techSkills"
           :key="idx"
       >
-        <span class="other-skill__name">{{ $t(`tech_skill.list['${techSkill.name}']`, techSkill.name) }}</span>
+        <span class="other-skill__name">
+          {{ $te(`tech_skill.list['${techSkill.name}']`) ?
+            $t(`tech_skill.list['${techSkill.name}']`) : techSkill.name }}
+        </span>
         <span class="other-skill__value badge badge-xs xs:badge-sm text-xs xs:text-base font-medium"
               :class="techSkill.class_color">
           {{ $t(techSkill.value) }}
