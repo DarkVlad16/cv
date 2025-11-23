@@ -10,7 +10,7 @@
   "about_me": {
     "title": "About Me",
     "description": [
-      "I have nearly 5 years of PHP development experience, primarily working with PHP 7.4+, Yii2, and Laravel. I contributed to maintaining and enhancing CRM systems, fintech projects, and client websites, also developing CMS plugins. My responsibilities include bug fixing, feature development, troubleshooting, and code reviews.",
+      "I have over 5 years of PHP development experience, primarily working with PHP 7.4+, Yii2, and Laravel. I contributed to maintaining and enhancing CRM systems, fintech projects, and client websites, also developing CMS plugins. My responsibilities include bug fixing, feature development, troubleshooting, and code reviews.",
       "Currently, as a Middle PHP Developer, I focus on improving system stability, collaborating with the team on complex issues, and maintaining high code quality. I use technologies such as PHP, Yii2, Laravel, MySQL, and Git regularly.",
       "I aim to further develop my expertise in PHP frameworks, deepen my skills in backend architecture and performance optimization."
     ],
@@ -125,6 +125,14 @@
     "info": [
       "Participated in the Ukrainian Collegiate Programming Contest 2016.",
       "Has finished the mixed course \"Foundations of Programming (based on Harvard CS50 course)\". Certificate S/N: TN-0196."
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "info": [
+      "Developed custom user interfaces with Vue 3 using the Composition API, improving usability and reducing onboarding time for new users.",
+      "Optimized complex SQL queries and database structures, reducing report generation time from minutes to seconds.",
+      "Acted as a mentor for a team of 2-3 developers, introduced code review processes and best practices, which improved code quality and accelerated new hire onboarding."
     ]
   },
   "basic": "Basic",

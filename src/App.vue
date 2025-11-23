@@ -1,8 +1,10 @@
 <template>
-  <header class="site-header flex flex-col lg:flex-row items-center lg:items-baseline justify-between sticky top-0 z-20 bg-base-100 gap-8 p-8 pb-4">
-    <div class="site-header__name font-semibold text-2xl xs:text-3xl mb-4 order-2 lg:order-1">{{ title }}</div>
-
-    <ThemeLanguageSwitcher class="justify-center sm:justify-end order-1 lg:order-2"/>
+  <header class="site-header flex flex-col lg:flex-row items-center justify-between sticky top-0 z-20 bg-base-100 gap-8 p-8 pb-4">
+    <div class="site-header__name font-semibold text-2xl xs:text-3xl mb-4 lg:mb-0 order-3 lg:order-1">{{ title }}</div>
+    <div class="flex items-center gap-4 sm:justify-end order-1 lg:order-3">
+      <Socials class="justify-center" />
+      <ThemeLanguageSwitcher class="justify-center"/>
+    </div>
   </header>
 
   <main class="resume m-8">
@@ -22,6 +24,7 @@
         <TechSkills/>
         <SoftSkills/>
         <Languages/>
+        <Achievements/>
         <Additional/>
       </div>
     </div>
@@ -32,6 +35,7 @@
 
 <script setup lang="ts">
 import AboutMe from "@/components/AboutMe.vue";
+import Achievements from "@/components/Achievements.vue";
 import Additional from "@/components/Additional.vue";
 import Education from "@/components/Education.vue";
 import Languages from "@/components/Languages.vue";
@@ -41,6 +45,7 @@ import ThemeLanguageSwitcher from '@/components/ThemeLanguageSwitcher.vue';
 import WorkExperience from "@/components/WorkExperience.vue";
 import {computed,  watch} from 'vue';
 import {useI18n} from 'vue-i18n';
+import Socials from "@/components/Socials.vue";
 
 const {t} = useI18n();
 const title = computed(() => (t('cv') + ' | ' + t('full_name') + ' | ' + t('position')));
